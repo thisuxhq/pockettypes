@@ -1,5 +1,5 @@
 {
-  "name": "pockettypes",
+  "name": "@thisux/pockettypes",
   "version": "0.0.1",
   "description": "Generate TypeScript types from PocketBase collections with ease in seconds",
   "main": "dist/main.js",
