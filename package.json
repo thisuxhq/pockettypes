@@ -1,10 +1,12 @@
 {
   "name": "@thisux/pockettypes",
   "version": "0.0.1",
-  "access": "public",
   "description": "Generate TypeScript types from PocketBase collections with ease in seconds",
   "main": "dist/main.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "bun build index.ts --outdir ./dist",
     "generate": "bun run dist/index.js"
