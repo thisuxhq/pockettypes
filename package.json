@@ -1,0 +1,30 @@
+{
+  "name": "pockettypes",
+  "version": "0.0.1",
+  "description": "Generate TypeScript types from PocketBase collections with ease in seconds",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "bun build index.ts --outdir ./dist",
+    "generate": "bun run dist/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "eslint": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "pocketbase": "^0.25.1"
+  },
+  "keywords": [
+    "pocketbase",
+    "typescript",
+    "type generation",
+    "pocketbase-typegen"
+  ],
+  "author": "Sanju Sivalingam",
+  "license": "MIT"
+}
